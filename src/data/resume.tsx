@@ -110,12 +110,38 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Personal Portfolio",
-      href: "https://tanayyo1.github.io",
+      title: "decodedocs",
+      href: "https://decodedocs.tech",
       dates: "",
       active: true,
       description:
-        "Personal portfolio website showcasing projects, open‑source contributions, and professional experience.",
+        "AI document simplifier that analyzes contracts, NDAs, and legal agreements—extracting key terms, flagging risky clauses, and explaining everything in plain English with an interactive chat assistant.",
+      technologies: [
+        "Next.js 15",
+        "TypeScript",
+        "OpenAI GPT-4",
+        "Tailwind CSS",
+        "NextAuth.js",
+        "Supabase",
+        "PDF Processing",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/tanayyo1/decodedocs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Personal Portfolio",
+      href: "tanayyo1.me",
+      dates: "",
+      active: true,
+      description:
+        "Personal portfolio website showcasing projects, open source contributions, and professional experience.",
       technologies: [
         "HTML",
         "CSS",
@@ -125,12 +151,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-            href: "https://tanayyo1.github.io",
+            href: "https://github.com/tanayyo1/Portfolio",
             icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-            href: "https://github.com/tanayyo1/tanayyo1.github.io",
+            href: "https://github.com/tanayyo1/Portfolio",
           icon: <Icons.github className="size-3" />,
         },
     ],
@@ -154,63 +180,6 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/tanayyo1/Xandeum-LATTICE",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Rocket.Chat Contributions",
-      href: "https://github.com/tanayyo1/Rocket.Chat",
-      dates: "",
-      active: true,
-      description:
-        "Fork of the Rocket.Chat communications platform used for contributing bug fixes and refactors to the upstream TypeScript/React codebase.",
-      technologies: [
-        "TypeScript",
-        "Node.js",
-        "MongoDB",
-        "React",
-        "WebSockets"
-    ],
-      links: [
-        {
-          type: "Source Fork",
-          href: "https://github.com/tanayyo1/Rocket.Chat",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Upstream",
-          href: "https://github.com/RocketChat/Rocket.Chat",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Cal.com Custom Fork",
-      href: "https://github.com/tanayyo1/cal.com",
-      dates: "",
-      active: true,
-      description:
-        "Customized fork of Cal.com used to explore and extend scheduling infrastructure features for personal and experimental use cases.",
-      technologies: [
-        "TypeScript",
-        "Next.js",
-        "Prisma",
-        "PostgreSQL"
-    ],
-      links: [
-        {
-          type: "Source Fork",
-          href: "https://github.com/tanayyo1/cal.com",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Upstream",
-          href: "https://github.com/calcom/cal.com",
           icon: <Icons.github className="size-3" />,
         },
     ],
@@ -264,33 +233,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "YtDownloader (Private)",
-      href: "https://github.com/tanayyo1/YtDownloader-private-",
-      dates: "",
-      active: true,
-      description:
-        "Private repository for a personal YouTube downloading workflow focused on automation and content processing.",
-      technologies: [
-        "TypeScript",
-        "Node.js"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/YtDownloader-private-",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
       title: "Feasto Food Delivery",
-      href: "https://github.com/tanayyo1/Feasto",
+      href: "https://feasto-ejaa79yio-tanays-projects-7c87c213.vercel.app/",
       dates: "",
       active: true,
       description:
-        "Food delivery web app built as a MERN‑style practice project with restaurant listings, menus, and ordering flows.",
+        "Food delivery web app built as a MERN style practice project with restaurant listings, menus, and ordering flows.",
       technologies: [
         "JavaScript",
         "React",
@@ -301,34 +249,6 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/tanayyo1/Feasto",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Zero Email Client Fork",
-      href: "https://github.com/tanayyo1/Zero",
-      dates: "",
-      active: false,
-      description:
-        "Fork of the Mail0 Zero open‑source email client, exploring privacy‑focused email UX and self‑hosting setup.",
-      technologies: [
-        "TypeScript",
-        "React",
-        "Electron",
-        "Node.js"
-    ],
-      links: [
-        {
-          type: "Source Fork",
-          href: "https://github.com/tanayyo1/Zero",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Upstream",
-          href: "https://github.com/Mail-0/Zero",
           icon: <Icons.github className="size-3" />,
         },
     ],
@@ -357,35 +277,14 @@ export const DATA = {
       image: "",
       video: "",
     },
-    {
-      title: "Major Project Analysis",
-      href: "https://github.com/tanayyo1/MajorProjectAnalysis",
-      dates: "",
-      active: true,
-      description:
-        "Repository used for analysis, documentation, and experimentation related to the final‑year major engineering project.",
-      technologies: [
-        "HTML",
-        "Data Analysis",
-        "Documentation"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/MajorProjectAnalysis",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
+    
     {
       title: "RealTimeChat",
       href: "https://github.com/tanayyo1/RealTimeChat",
       dates: "",
       active: true,
       description:
-        "Real‑time chat application showcasing WebSocket‑based messaging with a modern TypeScript and React stack.",
+        "Real time chat application showcasing WebSocket based messaging with a modern TypeScript and React stack.",
       technologies: [
         "TypeScript",
         "React",
@@ -401,259 +300,87 @@ export const DATA = {
     ],
       image: "",
       video: "",
-    },
-    {
-      title: "React From Scratch",
-      href: "https://github.com/tanayyo1/ReactFromScratch",
-      dates: "",
-      active: false,
-      description:
-        "Learning project focused on building a React application from the ground up with a custom TypeScript setup.",
-      technologies: [
-        "TypeScript",
-        "React",
-        "Vite/Webpack"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/ReactFromScratch",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "BMI Calculator",
-      href: "https://github.com/tanayyo1/BmiCalculatorReact",
-      dates: "",
-      active: false,
-      description:
-        "Beginner‑friendly web app that calculates BMI from user inputs with a simple React UI.",
-      technologies: [
-        "JavaScript",
-        "React",
-        "CSS"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/BmiCalculatorReact",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Uber-go (Ride Sharing Backend)",
-      href: "https://github.com/tanayyo1/Uber-go",
-      dates: "",
-      active: true,
-      description:
-        "Backend‑focused project for a ride‑sharing style application, experimenting with Go services and system design.",
-      technologies: [
-        "Go",
-        "REST API",
-        "PostgreSQL",
-        "Docker"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/Uber-go",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "New Project (Landing Page)",
-      href: "https://github.com/tanayyo1/New-Project",
-      dates: "",
-      active: false,
-      description:
-        "Static HTML project used for experimenting with layouts, components, and basic web structure.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/New-Project",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "MindfulMe (Final)",
-      href: "https://github.com/tanayyo1/mindfulme-final",
-      dates: "",
-      active: false,
-      description:
-        "Front‑end for a mindfulness or wellbeing themed project, focusing on responsive UI and styling.",
-      technologies: [
-        "CSS",
-        "HTML",
-        "JavaScript"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/mindfulme-final",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Next.js Experiments (Private)",
-      href: "https://github.com/tanayyo1/nextjs",
-      dates: "",
-      active: true,
-      description:
-        "Private sandbox for learning Next.js, experimenting with routing, data fetching, and full‑stack patterns.",
-      technologies: [
-        "TypeScript",
-        "Next.js"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/nextjs",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Next.js Chat (Private)",
-      href: "https://github.com/tanayyo1/nextjs-chat",
-      dates: "",
-      active: true,
-      description:
-        "Private real‑time chat app built with Next.js, focused on experimenting with server actions and live updates.",
-      technologies: [
-        "TypeScript",
-        "Next.js",
-        "WebSockets"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/nextjs-chat",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "FE-Mindfull (Hackathon)",
-      href: "https://github.com/tanayyo1/FE-Mindfull",
-      dates: "",
-      active: false,
-      description:
-        "Frontend project built for Hackanova 3.0 with a focus on mental health UX and clean HTML structure.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/FE-Mindfull",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Video Course Starter Kit (Private)",
-      href: "https://github.com/tanayyo1/video-course-starter-kit",
-      dates: "",
-      active: false,
-      description:
-        "Private starter kit for hosting or building video course content with a TypeScript front‑end.",
-      technologies: [
-        "TypeScript",
-        "React"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/video-course-starter-kit",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Video Course Starter Kit 2 (Private)",
-      href: "https://github.com/tanayyo1/video-course-starter-kit2",
-      dates: "",
-      active: false,
-      description:
-        "Second iteration of a video course starter kit exploring a refined architecture and project structure.",
-      technologies: [
-        "TypeScript",
-        "React"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/video-course-starter-kit2",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Pong Game (Private)",
-      href: "https://github.com/tanayyo1/pong-game-",
-      dates: "",
-      active: false,
-      description:
-        "Classic Pong game built as a college project, focusing on basic game mechanics and rendering.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS"
-    ],
-      links: [
-        {
-          type: "Source (Private)",
-          href: "https://github.com/tanayyo1/pong-game-",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
     }
+  ],
+  openSource: [
+    {
+      title: "Zero Email Client",
+      href: "https://github.com/tanayyo1/Zero",
+      dates: "",
+      active: true,
+      description:
+        "Contributing to Mail0's Zero, an open source, privacy focused email client. Exploring self-hosting setup and email UX improvements.",
+      technologies: ["TypeScript", "React", "Electron", "Node.js"],
+      links: [
+        {
+          type: "My Fork",
+          href: "https://github.com/tanayyo1/Zero",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Upstream",
+          href: "https://github.com/Mail-0/Zero",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Cal.com",
+      href: "https://github.com/tanayyo1/cal.com",
+      dates: "",
+      active: true,
+      description:
+        "Contributing to Cal.com, the open source Calendly alternative. Working on scheduling infrastructure and calendar integrations.",
+      technologies: ["TypeScript", "Next.js", "Prisma", "tRPC"],
+      links: [
+        {
+          type: "My Fork",
+          href: "https://github.com/tanayyo1/cal.com",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Upstream",
+          href: "https://github.com/calcom/cal.com",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Rocket.Chat",
+      href: "https://github.com/tanayyo1/Rocket.Chat",
+      dates: "",
+      active: true,
+      description:
+        "Contributing to Rocket.Chat, open source team communication platform. Exploring real time messaging and enterprise collaboration features.",
+      technologies: ["TypeScript", "Meteor", "React", "MongoDB"],
+      links: [
+        {
+          type: "My Fork",
+          href: "https://github.com/tanayyo1/Rocket.Chat",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Upstream",
+          href: "https://github.com/RocketChat/Rocket.Chat",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   hackathons: [
     {
       title: "Hackanova 2.0",
-      dates: "November 2024",
-      location: "Mumbai, India",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      dates: "2023",
+      location: "Mumbai",
+      description: "Built a project",
+      image: "hacknova.png",
       links: [],
     },
-  ],  
+  ],
 } as const;

@@ -1,10 +1,10 @@
-<div align="center">
+      <div align="center">
   <h1>Tanay's Portfolio</h1>
   <p><strong>a fully responsive developer personal portfolio, get your fork and play with it ;)</strong></p>
   
   <p>
     <a href="https://tanayyo1.github.io"><img src="https://img.shields.io/badge/🌐_Live_Demo-blue?style=for-the-badge" alt="Live Demo"></a>
-    <a href="#-quick-start"><img src="https://img.shields.io/badge/⚡_Quick_Start-green?style=for-the-badge" alt="Quick Start"></a>
+    <a href="#-quick-start"><img sr    ttps://img.shields.io/badge/⚡_Quick_Start-green?style=for-the-badge" alt="Quick Start"></a>
     <a href="#-tech-stack"><img src="https://img.shields.io/badge/💻_Tech_Stack-purple?style=for-the-badge" alt="Tech Stack"></a>
   </p>
 </div>

@@ -26,10 +26,14 @@ export function HackathonCard({
   return (
     <li className="relative py-4 ml-10 sm:ml-16 md:ml-28">
       {/* Avatar - responsive positioning */}
-      <div className="absolute -left-8 sm:-left-12 md:-left-[120px] top-0 flex items-center justify-center bg-white dark:bg-background rounded-full">
-        <Avatar className="border h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10">
-          <AvatarImage src={image} alt={title} className="object-contain p-1 sm:p-2" />
-          <AvatarFallback className="text-[10px] sm:text-xs">{title[0]}</AvatarFallback>
+      <div className="absolute -left-8 sm:-left-12 md:-left-16 top-1 flex items-center justify-center">
+        <Avatar className="border border-border bg-background h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12">
+          {image ? (
+            <AvatarImage src={image} alt={title} className="object-cover" />
+          ) : null}
+          <AvatarFallback className="text-xs sm:text-sm font-medium bg-secondary text-secondary-foreground">
+            {title.slice(0, 2).toUpperCase()}
+          </AvatarFallback>
         </Avatar>
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">

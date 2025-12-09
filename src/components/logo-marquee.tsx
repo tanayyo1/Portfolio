@@ -7,10 +7,10 @@ interface LogoProps {
 
 const Logo = ({ name, icon }: LogoProps) => (
   <div className="flex flex-col items-center justify-center gap-1 sm:gap-2 px-4 sm:px-6 lg:px-8">
-    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center text-white/80 hover:text-white transition-colors">
+    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center text-black/70 dark:text-white/80 hover:text-black dark:hover:text-white transition-colors">
       {icon}
     </div>
-    <span className="hidden sm:block text-[10px] lg:text-xs text-white/50 font-mono">{name}</span>
+    <span className="hidden sm:block text-[10px] lg:text-xs text-black/50 dark:text-white/50 font-mono">{name}</span>
   </div>
 );
 
@@ -187,7 +187,7 @@ export function LogoMarquee() {
   return (
     <section id="skills" className="relative py-8 sm:py-12 lg:py-16">
       {/* Dark gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-black/50 to-background" />
+      
       
       <div className="relative z-10">
         {/* Heading */}
