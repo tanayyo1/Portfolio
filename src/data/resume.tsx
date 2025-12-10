@@ -95,7 +95,7 @@ export const DATA = {
       start: "November 2025",
       end: "Present",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Engineered the rendering pipeline for OpenClip to efficiently visualize AI-generated video segments within a web environment. Integrating a robust Discord bot microservice to facilitate seamless bi directional communication between the application backend and user communities ",
     },
   ],
   education: [
