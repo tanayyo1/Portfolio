@@ -27,7 +27,7 @@ export function HackathonCard({
     <li className="relative py-4 ml-10 sm:ml-16 md:ml-28">
       {/* Avatar - responsive positioning */}
       <div className="absolute -left-8 sm:-left-12 md:-left-16 top-1 flex items-center justify-center">
-        <Avatar className="border border-border bg-background h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12">
+        <Avatar className="border border-gray-200/60 dark:border-white/[0.1] bg-white/80 dark:bg-white/[0.05] backdrop-blur-sm shadow-md h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12">
           {image ? (
             <AvatarImage src={image} alt={title} className="object-cover" />
           ) : null}

@@ -165,7 +165,7 @@ export const DATA = {
     },
     {
       title: "Xandeum LATTICE Dashboard",
-      href: "https://github.com/tanayyo1/Xandeum-LATTICE",
+      href: "https://xandeum-lattice.vercel.app/",
       dates: "",
       active: true,
       description:

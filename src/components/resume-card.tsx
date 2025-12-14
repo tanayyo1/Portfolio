@@ -44,7 +44,7 @@ export const ResumeCard = ({
       className="block cursor-pointer"
       onClick={handleClick}
     >
-      <Card className="flex bg-card/80 backdrop-blur-sm border-border/50 hover:bg-muted/50 transition-colors duration-300">
+      <Card className="flex items-center bg-white/60 dark:bg-transparent backdrop-blur-xl border-gray-200/60 dark:border-white/[0.05] shadow-lg shadow-black/[0.03] dark:shadow-none hover:bg-white/80 dark:hover:bg-white/[0.02] hover:border-gray-300/80 dark:hover:border-white/[0.1] hover:shadow-xl dark:hover:shadow-none transition-all duration-300 rounded-2xl">
         <div className="flex-none">
           <Avatar className="border m-auto bg-muted-background dark:bg-foreground h-10 w-10 sm:h-12 sm:w-12">
             <AvatarImage
