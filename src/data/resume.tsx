@@ -204,7 +204,7 @@ export const DATA = {
       dates: "Dec 2025",
       active: true,
       description:
-        "AI contract simplifier. Upload any legal PDF, get plain-English summaries, risky clause detection, and a chat assistant that answers follow-up questions. Auto-detects document type (NDAs, leases, employment contracts, privacy policies).",
+        "Legal PDF reader. Drop in an NDA, lease, or privacy policy. GPT-4o-mini returns a plain-English summary, flags the clauses worth worrying about, and answers follow-ups in a chat. Anthropic is the fallback when OpenAI rate-limits.",
       technologies: [
         "Next.js 15",
         "TypeScript",
@@ -235,7 +235,7 @@ export const DATA = {
       dates: "Nov 2025",
       active: true,
       description:
-        "Production Telegram bot for downloading YouTube videos with custom trimming, quality selection (144p to 4K), and MP3 conversion. Async job queue with BullMQ + PostgreSQL for tracking. yt-dlp under the hood.",
+        "Telegram bot. Paste a YouTube URL, get back the video trimmed to your timestamps at 144p to 4K, or converted to MP3. BullMQ and Postgres run the job queue. yt-dlp does the downloads.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -265,7 +265,7 @@ export const DATA = {
       dates: "Dec 2025",
       active: true,
       description:
-        "Real-time analytics dashboard for monitoring Xandeum pNodes. Built for the Xandeum Grant Competition with per-node risk engine (uptime, version status, flapping detection), 24-hour health score trends, and geographic distribution map.",
+        "Dashboard watching Xandeum's pNode network. Scores each node by uptime, version lag, and flapping. 24-hour health trends and a world map of node locations. Grant competition submission.",
       technologies: [
         "TypeScript",
         "React",
