@@ -198,6 +198,95 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "decodedocs",
+      href: "https://decodedocs.tech",
+      dates: "Dec 2025",
+      active: true,
+      description:
+        "AI contract simplifier. Upload any legal PDF, get plain-English summaries, risky clause detection, and a chat assistant that answers follow-up questions. Auto-detects document type (NDAs, leases, employment contracts, privacy policies).",
+      technologies: [
+        "Next.js 15",
+        "TypeScript",
+        "OpenAI GPT-4o-mini",
+        "Anthropic",
+        "Supabase",
+        "NextAuth",
+        "Tailwind",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://decodedocs.tech",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/tanayyo1/decodedocs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "AutoTube",
+      href: "https://github.com/tanayyo1/AutoTube-",
+      dates: "Nov 2025",
+      active: true,
+      description:
+        "Production Telegram bot for downloading YouTube videos with custom trimming, quality selection (144p to 4K), and MP3 conversion. Async job queue with BullMQ + PostgreSQL for tracking. yt-dlp under the hood.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "BullMQ",
+        "PostgreSQL",
+        "yt-dlp",
+        "Telegram Bot API",
+      ],
+      links: [
+        {
+          type: "Demo Video",
+          href: "https://youtu.be/fSEPWr8IZuo",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/tanayyo1/AutoTube-",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Xandeum LATTICE",
+      href: "https://xandeum-lattice.vercel.app/",
+      dates: "Dec 2025",
+      active: true,
+      description:
+        "Real-time analytics dashboard for monitoring Xandeum pNodes. Built for the Xandeum Grant Competition with per-node risk engine (uptime, version status, flapping detection), 24-hour health score trends, and geographic distribution map.",
+      technologies: [
+        "TypeScript",
+        "React",
+        "Charts / Visualization",
+        "API Integration",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://xandeum-lattice.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/tanayyo1/Xandeum-LATTICE",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   openSource: [
     {
