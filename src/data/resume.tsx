@@ -8,11 +8,12 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "Software Engineer · AI + Video Systems · Building Tonr (tonr.app)",
+    "engineer. building tonr.app, shipping at openclip.",
   summary: `
-     <p>Software Engineer shipping production AI + video systems.</p>
-     <p>Currently @ <a href="https://openclip.app/">OpenClip</a> — RAG chat hardening, FFmpeg pipelines, caption systems.</p>
-     <p>Building <a href="https://tonr.app">Tonr</a> — AI music platform for video creators (solo, end-to-end).</p>
+     <p>baseline. self-taught by breaking things and following the sparks.</p>
+     <p>currently at <a href="https://openclip.app/">openclip</a>, fighting NVENC b-frames and patching production at 3am.</p>
+     <p>also building <a href="https://tonr.app">tonr</a>, an AI music platform for video creators. solo, mostly because nobody else would.</p>
+     <p>most days it's code, gym, guitar, repeat. most of what i ship earns nothing. that's fine.</p>
   `,
   avatarUrl: "/me.jpg",
   skills: [
@@ -94,7 +95,7 @@ export const DATA = {
       start: "December 2025",
       end: "Present",
       description:
-        "Hardened OpenClip's Content Intelligence Hub (RAG chat, 11 tool-calling tools, GPT-4o + Claude Sonnet). Fixed A/V desync in the FFmpeg media-processor (disabled NVENC B-frames, replaced trim/atrim with dual-seek for frame-accurate clip cutting). Built the AI emoji caption system across backend, renderer, and Discord bot. Helped ship the public launch — now serving 7K+ users and 84K+ rendered clips.",
+        "Hardened OpenClip's Content Intelligence Hub (RAG chat, 11 tool-calling tools, GPT-4o + Claude Sonnet). Fixed A/V desync in the FFmpeg media-processor by disabling NVENC B-frames and replacing trim/atrim with dual-seek for frame-accurate clip cutting. Built the AI emoji caption system across backend, renderer, and Discord bot. Helped ship the public launch. Now serving 7K+ users and 84K+ rendered clips.",
     },
   ],
   education: [
@@ -241,14 +242,5 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [
-    {
-      title: "Hackanova 2.0",
-      dates: "2023",
-      location: "Mumbai",
-      description: "Built a project",
-      image: "hacknova.png",
-      links: [],
-    },
-  ],
+  hackathons: [],
 } as const;
