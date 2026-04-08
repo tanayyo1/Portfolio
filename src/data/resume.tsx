@@ -4,105 +4,104 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Tanay Chaudhari",
   initials: "TC",
-  url: "https://tanayyo1.github.io",
+  url: "https://tanayyo1.me",
   location: "Mumbai, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "Engineer, I love building things, Active on Twitter.",
+    "Software Engineer · AI + Video Systems · Building Tonr (tonr.app)",
   summary: `
-     <p>baseline; self-taught by breaking things and following the sparks.</p>
-     <p>most of what i make earns nothing, </p>
-     <p>i grind my LLMs down to the breaking point </p>
-     <p>most days it's code, gym, guitar, repeat. </p>
-     
-  `,  
+     <p>Software Engineer shipping production AI + video systems.</p>
+     <p>Currently @ <a href="https://openclip.app/">OpenClip</a> — RAG chat hardening, FFmpeg pipelines, caption systems.</p>
+     <p>Building <a href="https://tonr.app">Tonr</a> — AI music platform for video creators (solo, end-to-end).</p>
+  `,
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
-    "Next.js",
     "TypeScript",
-    "Node.js",
     "Python",
-    "Go",
-    "Java",
-    "C++",
-    "Postgres",
-    "Supabase",
-    "Prisma",
-    "Docker",
-    "Kubernetes",
+    "PHP",
+    "SQL",
+    "Next.js",
+    "React",
+    "Laravel",
+    "Node.js",
+    "FastAPI",
+    "PostgreSQL",
+    "pgvector",
     "Redis",
-    "MongoDB",
-    "GitHub",
+    "Docker",
+    "Modal",
+    "RunPod",
+    "FFmpeg",
+    "Puppeteer",
+    "OpenAI",
+    "Gemini",
+    "LLMs",
+    "RAG",
+    "Vector Search",
+    "Prompt Engineering",
+    "GCP",
     "Vercel",
-    "Tailwind CSS",
-    "AWS",
-    "Azure",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "tanayy07@gmail.com",
+    email: "tanayy007@gmail.com",
     tel: "7385989270",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/tanayyo1",
-          icon: Icons.github,
-
+        icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/tanay-chaudhari-b318b5245/",
-          icon: Icons.linkedin,
-
+        url: "https://www.linkedin.com/in/tanayyo1/",
+        icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/tanayyo1",
-          icon: Icons.x,
-
+        icon: Icons.x,
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
         url: "",
-          icon: Icons.youtube,
+        icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "#",
-          icon: Icons.email,
-
+        icon: Icons.email,
         navbar: false,
       },
     },
-    },
+  },
 
   work: [
     {
       company: "OpenClip",
       href: "https://openclip.app/",
       badges: [],
-      location: "UAE",
+      location: "Remote",
       title: "Software Engineer",
       logoUrl: "/OpenClipLogo.jpg",
-      start: "November 2025",
+      start: "December 2025",
       end: "Present",
       description:
-        "Engineered the rendering pipeline for OpenClip to efficiently visualize AI-generated video segments within a web environment. Integrating a robust Discord bot microservice to facilitate seamless bi directional communication between the application backend and user communities ",
+        "Hardened OpenClip's Content Intelligence Hub (RAG chat, 11 tool-calling tools, GPT-4o + Claude Sonnet). Fixed A/V desync in the FFmpeg media-processor (disabled NVENC B-frames, replaced trim/atrim with dual-seek for frame-accurate clip cutting). Built the AI emoji caption system across backend, renderer, and Discord bot. Helped ship the public launch — now serving 7K+ users and 84K+ rendered clips.",
     },
   ],
   education: [
     {
-      school: "University of Mumbai",
+      school: "Terna Engineering College, Mumbai University",
       href: "https://mu.ac.in/",
-      degree: "Electronics and Telecommunication (BE)",
+      degree: "B.E. Electronics & Telecommunication",
       logoUrl: "/waterloo.png",
       start: "2022",
       end: "2026",
@@ -110,216 +109,59 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "decodedocs",
-      href: "https://decodedocs.tech",
-      dates: "",
+      title: "Tonr",
+      href: "https://tonr.app",
+      dates: "2026 – Present",
       active: true,
       description:
-        "AI document simplifier that analyzes contracts, NDAs, and legal agreements—extracting key terms, flagging risky clauses, and explaining everything in plain English with an interactive chat assistant.",
+        "AI music platform for video creators. Solo build with hybrid semantic search, custom music generation via Lyria 3 with prompt translation, async 6-stem separation on Modal serverless GPU, and an interactive Web Audio mixer. 500+ tracks processed.",
       technologies: [
-        "Next.js 15",
+        "Next.js 14",
         "TypeScript",
-        "OpenAI GPT-4",
-        "Tailwind CSS",
-        "NextAuth.js",
-        "Supabase",
-        "PDF Processing",
+        "Python",
+        "PostgreSQL",
+        "pgvector",
+        "Modal",
+        "Cloudflare R2",
+        "Clerk",
+        "Gemini",
+        "Lyria 3",
+        "HTDemucs",
+        "ACRCloud",
       ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/decodedocs",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Personal Portfolio",
-      href: "tanayyo1.me",
-      dates: "",
-      active: true,
-      description:
-        "Personal portfolio website showcasing projects, open source contributions, and professional experience.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "GitHub Pages"
-    ],
       links: [
         {
           type: "Website",
-            href: "https://github.com/tanayyo1/Portfolio",
-            icon: <Icons.globe className="size-3" />,
+          href: "https://tonr.app",
+          icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-            href: "https://github.com/tanayyo1/Portfolio",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
+      ],
       image: "",
       video: "",
     },
     {
-      title: "Xandeum LATTICE Dashboard",
-      href: "https://xandeum-lattice.vercel.app/",
-      dates: "",
+      title: "Openfast",
+      href: "https://github.com/tanayyo1/Openfast",
+      dates: "Jan 2026 – Present",
       active: true,
       description:
-        "Real‑time analytics dashboard for monitoring Xandeum pNodes, built as a bounty submission with live node metrics and visual insights.",
+        "Solo-built AI Reddit marketing platform: subreddit analysis, AI post drafting with compliance scoring, BullMQ-backed scheduled posting with retry logic and shadowban detection. 135 commits, full Jest + Playwright test coverage.",
       technologies: [
+        "Next.js 14",
         "TypeScript",
-        "React",
-        "Charts/Visualization",
-        "API Integration"
-    ],
+        "PostgreSQL (Prisma)",
+        "Supabase",
+        "Redis + BullMQ",
+        "OpenAI GPT-4",
+        "LangChain",
+        "Reddit OAuth",
+        "Polar",
+        "Playwright",
+      ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/tanayyo1/Xandeum-LATTICE",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Inkpad (Excalidraw Clone)",
-      href: "https://github.com/tanayyo1/Inkpad",
-      dates: "",
-      active: true,
-      description:
-        "Web‑based whiteboard and diagramming tool inspired by Excalidraw, enabling free‑form drawing and diagram creation in the browser.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Canvas API"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/Inkpad",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "AutoTube",
-      href: "https://github.com/tanayyo1/AutoTube-",
-      dates: "",
-      active: true,
-      description:
-        "YouTube automation tool that downloads videos end‑to‑end, applying preset quality settings and trimming sections based on automation rules.",
-      technologies: [
-        "TypeScript",
-        "Node.js",
-        "CLI",
-        "YouTube API"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/AutoTube-",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Feasto Food Delivery",
-      href: "https://feasto-ejaa79yio-tanays-projects-7c87c213.vercel.app/",
-      dates: "",
-      active: true,
-      description:
-        "Food delivery web app built as a MERN style practice project with restaurant listings, menus, and ordering flows.",
-      technologies: [
-        "JavaScript",
-        "React",
-        "REST API",
-        "CSS"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/Feasto",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "DropLater",
-      href: "https://github.com/tanayyo1/DropLater",
-      dates: "",
-      active: false,
-      description:
-        "Lightweight utility project experimenting with frontend interactions and state updates for delayed or scheduled actions.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/DropLater",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    },
-    
-    {
-      title: "RealTimeChat",
-      href: "https://github.com/tanayyo1/RealTimeChat",
-      dates: "",
-      active: true,
-      description:
-        "Real time chat application showcasing WebSocket based messaging with a modern TypeScript and React stack.",
-      technologies: [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "WebSockets"
-    ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/tanayyo1/RealTimeChat",
-          icon: <Icons.github className="size-3" />,
-        },
-    ],
-      image: "",
-      video: "",
-    }
-  ],
-  openSource: [
-    {
-      title: "Zero Email Client",
-      href: "https://github.com/tanayyo1/Zero",
-      dates: "",
-      active: true,
-      description:
-        "Contributing to Mail0's Zero, an open source, privacy focused email client. Exploring self-hosting setup and email UX improvements.",
-      technologies: ["TypeScript", "React", "Electron", "Node.js"],
-      links: [
-        {
-          type: "My Fork",
-          href: "https://github.com/tanayyo1/Zero",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Upstream",
-          href: "https://github.com/Mail-0/Zero",
+          href: "https://github.com/tanayyo1/Openfast",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -327,22 +169,53 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Cal.com",
-      href: "https://github.com/tanayyo1/cal.com",
-      dates: "",
+      title: "GeminiWatermark",
+      href: "https://geminiwatermark.tech",
+      dates: "Feb 2026 – Present",
       active: true,
       description:
-        "Contributing to Cal.com, the open source Calendly alternative. Working on scheduling infrastructure and calendar integrations.",
-      technologies: ["TypeScript", "Next.js", "Prisma", "tRPC"],
+        "Reverse-engineered Google Gemini's image watermark algorithm and shipped a fully browser-based removal tool using NCC detection and per-pixel alpha estimation. No server, no uploads. Open source (MIT) with Polar licensing for the Pro tier.",
+      technologies: [
+        "JavaScript",
+        "Canvas API",
+        "esbuild",
+        "Supabase",
+        "Polar",
+      ],
       links: [
         {
-          type: "My Fork",
-          href: "https://github.com/tanayyo1/cal.com",
+          type: "Website",
+          href: "https://geminiwatermark.tech",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/tanayyo1/geminiwatermark",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+  openSource: [
+    {
+      title: "Mail-0/Zero",
+      href: "https://github.com/Mail-0/Zero",
+      dates: "Aug 2025",
+      active: true,
+      description:
+        "2 merged PRs to Mail-0/Zero, an open source privacy-focused email client: light-mode email visibility fix (#1994) and button cursor UX improvements (#1993).",
+      technologies: ["TypeScript", "React", "Electron", "Node.js"],
+      links: [
+        {
+          type: "PR #1994",
+          href: "https://github.com/Mail-0/Zero/pull/1994",
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Upstream",
-          href: "https://github.com/calcom/cal.com",
+          type: "PR #1993",
+          href: "https://github.com/Mail-0/Zero/pull/1993",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -351,18 +224,13 @@ export const DATA = {
     },
     {
       title: "Rocket.Chat",
-      href: "https://github.com/tanayyo1/Rocket.Chat",
-      dates: "",
+      href: "https://github.com/RocketChat/Rocket.Chat",
+      dates: "Mar 2026 – Present",
       active: true,
       description:
-        "Contributing to Rocket.Chat, open source team communication platform. Exploring real time messaging and enterprise collaboration features.",
+        "Contributing to Rocket.Chat core. Open PRs under review. Drafted Google Summer of Code 2026 proposals for the Apps Engine Test Framework and a Personal Calendar UI.",
       technologies: ["TypeScript", "Meteor", "React", "MongoDB"],
       links: [
-        {
-          type: "My Fork",
-          href: "https://github.com/tanayyo1/Rocket.Chat",
-          icon: <Icons.github className="size-3" />,
-        },
         {
           type: "Upstream",
           href: "https://github.com/RocketChat/Rocket.Chat",
