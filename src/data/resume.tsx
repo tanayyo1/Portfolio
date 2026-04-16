@@ -10,10 +10,9 @@ export const DATA = {
   description:
     "engineer. building tonr.app, shipping at openclip.",
   summary: `
-     <p>baseline. self-taught by breaking things and following the sparks.</p>
-     <p>currently at <a href="https://openclip.app/">openclip</a>, fighting NVENC b-frames and patching production at 3am.</p>
-     <p>also building <a href="https://tonr.app">tonr</a>, an AI music platform for video creators. solo, mostly because nobody else would.</p>
-     <p>most days it's code, gym, guitar, repeat. most of what i ship earns nothing. that's fine.</p>
+     <p>baseline. self taught, mostly by breaking things.</p>
+     <p>most of what i ship earns nothing. that's fine.</p>
+     <p>code, gym, guitar, repeat.</p>
   `,
   avatarUrl: "/me.jpg",
   skills: [
@@ -95,7 +94,7 @@ export const DATA = {
       start: "December 2025",
       end: "Present",
       description:
-        "Hardened OpenClip's Content Intelligence Hub (RAG chat, 11 tool-calling tools, GPT-4o + Claude Sonnet). Fixed A/V desync in the FFmpeg media-processor by disabling NVENC B-frames and replacing trim/atrim with dual-seek for frame-accurate clip cutting. Built the AI emoji caption system across backend, renderer, and Discord bot. Helped ship the public launch. Now serving 7K+ users and 84K+ rendered clips.",
+        "Hardened OpenClip's Content Intelligence Hub (RAG chat, 11 tool calling tools, GPT-4o + Claude Sonnet). Fixed A/V desync in the FFmpeg media-processor by disabling NVENC B frames and replacing trim/atrim with dual seek for frame accurate clip cutting. Built the AI emoji caption system across backend, renderer, and Discord bot. Helped ship the public launch. Now serving 7K+ users and 84K+ rendered clips.",
     },
   ],
   education: [
@@ -115,7 +114,7 @@ export const DATA = {
       dates: "2026 – Present",
       active: true,
       description:
-        "AI music platform for video creators. Solo build with hybrid semantic search, custom music generation via Lyria 3 with prompt translation, async 6-stem separation on Modal serverless GPU, and an interactive Web Audio mixer. 500+ tracks processed.",
+        "AI music platform for video creators. Solo build with hybrid semantic search, custom music generation via Lyria 3 with prompt translation, async 6 stem separation on Modal serverless GPU, and an interactive Web Audio mixer. 500+ tracks processed.",
       technologies: [
         "Next.js 14",
         "TypeScript",
@@ -146,7 +145,7 @@ export const DATA = {
       dates: "Jan 2026 – Present",
       active: true,
       description:
-        "Solo-built AI Reddit marketing platform: subreddit analysis, AI post drafting with compliance scoring, BullMQ-backed scheduled posting with retry logic and shadowban detection. 135 commits, full Jest + Playwright test coverage.",
+        "built solo AI Reddit marketing platform: subreddit analysis, AI post drafting with compliance scoring, BullMQ powered scheduled posting with retry logic and shadowban detection. 135 commits, full Jest + Playwright test coverage.",
       technologies: [
         "Next.js 14",
         "TypeScript",
@@ -175,7 +174,7 @@ export const DATA = {
       dates: "Feb 2026 – Present",
       active: true,
       description:
-        "Reverse-engineered Google Gemini's image watermark algorithm and shipped a fully browser-based removal tool using NCC detection and per-pixel alpha estimation. No server, no uploads. Open source (MIT) with Polar licensing for the Pro tier.",
+        "reverse engineered Google Gemini's image watermark algorithm and shipped a fully browser based removal tool using NCC detection and per pixel alpha estimation. No server, no uploads. Open source (MIT) with Polar licensing for the Pro tier.",
       technologies: [
         "JavaScript",
         "Canvas API",
@@ -204,7 +203,7 @@ export const DATA = {
       dates: "Dec 2025",
       active: true,
       description:
-        "Legal PDF reader. Drop in an NDA, lease, or privacy policy. GPT-4o-mini returns a plain-English summary, flags the clauses worth worrying about, and answers follow-ups in a chat. Anthropic is the fallback when OpenAI rate-limits.",
+        "Legal PDF reader. Drop in an NDA, lease, or privacy policy. GPT-4o-mini returns a plain english summary, flags the clauses worth worrying about, and answers follow ups in a chat. Anthropic is the fallback when OpenAI rate limits.",
       technologies: [
         "Next.js 15",
         "TypeScript",
@@ -265,7 +264,7 @@ export const DATA = {
       dates: "Dec 2025",
       active: true,
       description:
-        "Dashboard watching Xandeum's pNode network. Scores each node by uptime, version lag, and flapping. 24-hour health trends and a world map of node locations. Grant competition submission.",
+        "Dashboard watching Xandeum's pNode network. Scores each node by uptime, version lag, and flapping. 24 hour health trends and a world map of node locations. Grant competition submission.",
       technologies: [
         "TypeScript",
         "React",
@@ -295,7 +294,7 @@ export const DATA = {
       dates: "Aug 2025",
       active: true,
       description:
-        "2 merged PRs to Mail-0/Zero, an open source privacy-focused email client: light-mode email visibility fix (#1994) and button cursor UX improvements (#1993).",
+        "2 merged PRs to Mail-0/Zero, an open source privacy focused email client: light mode email visibility fix (#1994) and button cursor UX improvements (#1993).",
       technologies: ["TypeScript", "React", "Electron", "Node.js"],
       links: [
         {
